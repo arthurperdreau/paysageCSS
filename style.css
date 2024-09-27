@@ -1,0 +1,53 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+.bando {
+    background-color: rgba(41, 35, 31, 0.38);
+    font-size: 3vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    height: 10%;
+
+
+}
+.text{
+    background-color: rgba(30, 30, 189, 0.3);
+    color: white;
+    text-decoration: bolder;
+}
+
+.main{
+    height: 100vh;
+}
+.citation{
+    font-style: italic;
+    font-family:"Papyrus";
+    font-size: 45px;
+    color: rgba(18, 17, 17, 0.19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    text-transform: uppercase;
+
+
+
+}
+.nom{
+    text-align: left;
+    color: #dde8e4;
+    display: flex;
+    justify-content: center;
+
+
+}
+.lien{
+    text-align:right;
+    display: flex;
+    word-spacing: 20px;
+    color: white;
+
+}
+body { background-image: url("img.png") }
